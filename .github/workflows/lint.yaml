@@ -1,4 +1,4 @@
-name: check lint
+name: checks
 on: push
 jobs:
   build:
@@ -15,10 +15,15 @@ jobs:
       - name: Install Node.js dependencies
         run: npm install --include=dev --prod
 
+      - name: Install Node.js dependencies
+        run: npm install -g eslint@latest
+
       - name: run lint
         uses: wearerequired/lint-action@v1.7.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           eslint: true
           auto_fix: true
-          
+      
+      - name: unit test
+        run: npm run test
