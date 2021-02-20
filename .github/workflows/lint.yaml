@@ -14,6 +14,9 @@ jobs:
       
       - name: Install Node.js dependencies
         run: npm install --include=dev --prod
+
+      - name: install dev
+        run: npm install --only=dev
       
       - name: view list
         run: npm list --depth=0
