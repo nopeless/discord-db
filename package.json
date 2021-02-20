@@ -1,0 +1,28 @@
+{
+	"name": "discord-db",
+	"version": "1.0.0",
+	"description": "Uses a discord guild as a database",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nopeless/discord-db.git"
+	},
+	"keywords": [
+		"discord",
+		"database"
+	],
+	"author": "nopeless",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/nopeless/discord-db/issues"
+	},
+	"homepage": "https://github.com/nopeless/discord-db#readme",
+	"devDependencies": {
+		"discord.js": "^12.5.1",
+		"eslint-plugin-mocha": "^8.0.0",
+		"mocha": "^8.3.0"
+	}
+}
