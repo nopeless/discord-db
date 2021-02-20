@@ -4,7 +4,7 @@
 	"description": "Uses a discord guild as a database",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Running mocha tests...\" && mocha tests/unit --recursive"
 	},
 	"repository": {
 		"type": "git",
