@@ -11,6 +11,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
+      
+      - name: Install Node.js dependencies
+        run: npm install --include=dev --prod
 
       - name: run lint
         uses: wearerequired/lint-action@v1.7.0
