@@ -12,10 +12,6 @@ jobs:
         with:
           node-version: 12
 
-      - name: packages as global
-      # this is probably a bad idea but honestly i just want it to work
-        run: node package.js
-
       - name: run lint
         uses: wearerequired/lint-action@v1.7.0
         with:
