@@ -1,16 +1,14 @@
 const Discord = require(`discord.js`);
-
-class DiscordDBClient extends Discord.Client {
+class Client extends Discord.Client {
   constructor(options) {
     super(options);
     // custom options as well
+    console.log(`called`);
+    this.a = 3;
   }
   // create a map of viewable channels (internal cache)
 }
 
-class DiscordDB {
-  constructor(options) {
-    this.token = options.token;
-    this.client = new DiscordDBClient();
-  }
-}
+module.exports = {
+  Client,
+};

@@ -4,7 +4,7 @@
 	"description": "Uses a discord guild as a database",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Running mocha tests...\" && mocha tests/unit/**/*.spec.[jt]s --recursive"
+		"test": "echo \"Running mocha tests...\" && mocha tests/unit/**/*.spec.[jt]s --recursive --config tests/config/.mocharc.js"
 	},
 	"repository": {
 		"type": "git",
@@ -21,6 +21,7 @@
 	},
 	"homepage": "https://github.com/nopeless/discord-db#readme",
 	"devDependencies": {
+		"dotenv": "^8.2.0",
 		"eslint": "^7.20.0",
 		"eslint-plugin-mocha": "^8.0.0",
 		"mocha": "^8.3.0"

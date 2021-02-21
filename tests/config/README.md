@@ -1,0 +1,1 @@
+keywords like assert are now global
