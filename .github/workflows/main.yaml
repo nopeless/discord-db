@@ -1,4 +1,4 @@
-name: checks
+name: main
 on: push
 jobs:
   build:
