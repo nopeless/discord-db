@@ -1,6 +1,6 @@
 # a side project created while making a website
 
-![oh hey a green badge](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![oh hey a green badge](https://github.com/nopeless/discord-db/actions/workflows/main.yml/badge.svg)
 
 ```js
 // quickstart guide
