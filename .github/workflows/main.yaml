@@ -21,6 +21,9 @@ jobs:
       - name: view list
         run: npm list --depth=0
 
+      - name: remove whatever was modifed
+        run: git clean -fd
+
       - name: run lint
         uses: wearerequired/lint-action@v1.7.0
         with:
